@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}
+Homepage
+{% endblock %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1 class="display-4">Time to identify topic of email?</h1>
+    <form action="/topic" method="POST">
+        <div class="form-group">
+            <label for="email">Email from</label>
+            <input class="form-control" id="email" name="email"></input>
+        </div>
+        <div class="form-group">
+            <label for="organization">Organization</label>
+            <input class="form-control" id="organization" name="organization"></input>
+        </div>
+        <div class="form-group">
+            <label for="subject">Subject</label>
+            <input class="form-control" id="subject" name="subject"></input>
+        </div>
+        <div class="form-group">
+            <label for="content">Content</label>
+            <textarea class="form-control" id="content" name="content" rows="5"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        
+    </form>
+</div>
+{% endblock %}
