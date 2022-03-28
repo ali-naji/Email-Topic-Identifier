@@ -35,7 +35,9 @@ Linux/MAC: `source bin/activate`
 - Deactivate and delete virtual environment / project
 
 `deactivate`
+
 `cd ..`
+
 `rm -r ../Email-Topic-Identifier`
 
 \* Note: requirements are for the webapp only, research notebook requires other dependencies which are not included for fast installation.
