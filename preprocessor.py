@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-from glob import glob
-import matplotlib.pyplot as plt
 import re
 import nltk
 from nltk.tokenize import word_tokenize

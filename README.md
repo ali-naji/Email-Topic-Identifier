@@ -6,17 +6,36 @@ As part of this repository, we developed an app that receives request in a webpa
 
 ### Installation Instructions
 
-Clone git repository to your favorite directory
+- Clone git repository to your favorite directory
 
 `git clone https://github.com/ali-naji/Email-Topic-Identifier.git`
 
-Move into project folder
+- Move into project folder
+
 `cd Email-Topic-Identifier`
 
-Install project dependencies
-`pip install .`
+- create and activate a virtual environment
 
-Run Flask App
+`python -m venv .`
+
+Windows: `venv/bin/activate`
+
+Linux/MAC: `source venv/bin/activate`
+
+- Install project dependencies\*
+
+`pip install -r requirements.txt`
+
+- Run Flask App
+
 `flask run`
 
-Open a browser window with the link shown in terminal
+- Open a browser window with the link shown in terminal
+
+- Deactivate and delete virtual environment
+
+`deactivate`
+
+`rm -r venv`
+
+\* Note: requirements are for the webapp only, research notebook requires other dependencies which are not included for fast installation.
