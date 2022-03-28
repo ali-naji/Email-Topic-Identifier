@@ -18,9 +18,9 @@ As part of this repository, we developed an app that receives request in a webpa
 
 `python -m venv .`
 
-Windows: `venv/bin/activate`
+Windows: `Scripts\activate.bat`
 
-Linux/MAC: `source venv/bin/activate`
+Linux/MAC: `source bin/activate`
 
 - Install project dependencies\*
 
@@ -32,10 +32,10 @@ Linux/MAC: `source venv/bin/activate`
 
 - Open a browser window with the link shown in terminal
 
-- Deactivate and delete virtual environment
+- Deactivate and delete virtual environment / project
 
 `deactivate`
-
-`rm -r venv`
+`cd ..`
+`rm -r ../Email-Topic-Identifier`
 
 \* Note: requirements are for the webapp only, research notebook requires other dependencies which are not included for fast installation.
