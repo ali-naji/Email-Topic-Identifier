@@ -6,10 +6,17 @@ As part of this repository, we developed an app that receives request in a webpa
 
 ### Installation Instructions
 
-git clone https://github.com/ali-naji/Email-Topic-Identifier.git
+Clone git repository to your favorite directory
 
-cd Email-Topic-Identifier
+`git clone https://github.com/ali-naji/Email-Topic-Identifier.git`
 
-pip install .
+Move into project folder
+`cd Email-Topic-Identifier`
 
-flask run
+Install project dependencies
+`pip install .`
+
+Run Flask App
+`flask run`
+
+Open a browser window with the link shown in terminal
