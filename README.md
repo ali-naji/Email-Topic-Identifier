@@ -38,6 +38,6 @@ Linux/MAC: `source bin/activate`
 
 `cd ..`
 
-`rm -r ../Email-Topic-Identifier`
+`rm -r ./Email-Topic-Identifier`
 
 \* Note: requirements are for the webapp only, research notebook requires other dependencies which are not included for fast installation.
